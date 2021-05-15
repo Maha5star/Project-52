@@ -1,0 +1,167 @@
+.menu{
+    display:flex;
+    justify-content:space-between;
+    padding: 15px;
+    margin: 0px;
+    font-size: 20px;
+    font-family:cursive;
+    font-weight: 400;
+    color:#800000;
+}
+
+/*{border: solid;
+}*/
+
+body{
+    background:#ffefd5;
+}
+
+h3{
+    display:flex;
+    text-align:center;
+    font-style: italic;
+    color:#ff0000;
+    margin-top: -20px;
+    padding: 1px;
+
+}
+
+p{
+    color:deeppink;
+    padding-right: 5px;
+    margin-left: 100px;
+    margin-right: 90px ;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+
+.grid img{
+border: 2px solid black;
+border-radius: 50px;
+margin-top: 12px;
+padding: 5px;
+background: #f5f5f5;
+}
+
+.origami{
+    border-radius: 10px;
+    margin-top: -14px;
+    padding: 5px;
+    width: 310px;
+    
+}
+
+.heading {
+     font-family:'Times New Roman', Times, serif;
+     background-color: #fa8072;
+     color: #fffffa;
+     margin-top: -30px;
+     text-align: center;
+}
+
+a:link{
+   color:green;
+}
+
+a:visited{
+    color:darkgreen;
+}
+
+.origami{
+    position: relative;
+}
+
+.origami p{
+    position: absolute;
+    top: 25%;
+    left:10%;
+    opacity: 0;
+    transform:translate(-100,-100);
+    font-size: 24px;
+}
+
+.origami:hover p{
+    opacity:1;
+}
+
+.origami:hover img{
+    opacity:0.25;
+    transition-duration: 0.5s;
+    box-shadow: 5px 5px 5px 5px dimgray;
+}
+
+.intro{
+    border-radius: 10px;
+    padding: 10px;
+    background-color:indigo;
+    border-color:white;
+    color:crimson;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.intro:hover{
+    transition-duration: 0.7s;
+    box-shadow:10px 10px 10px 10px dimgray;
+}
+
+.conclusion{
+    border-radius: 10px;
+    border-color: white;
+    background-color:firebrick;
+    color:sandybrown;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.conclusion:hover{
+    transition-duration: 0.7s;
+    box-shadow:10px 10px 10px 10px dimgray;
+}
+.end{
+    border-radius: 10px;
+    border-color: white;
+    background-color: mediumblue;
+    color:hotpink;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 1px;
+}
+
+.end:hover{
+    transition-duration: 0.7s;
+    box-shadow:10px 10px 10px 10px dimgray;
+}
+
+.total{
+    background-image: url(ig.jpg);
+}
+
+.footer2{
+    display: flex;
+    margin-top: 100px;
+    justify-content:flex-end;
+    border-radius: 10px;
+    background-color:lightsalmon;
+}
+
+.menu2{
+    display:flex;
+    justify-content:space-between;
+    padding: 15px;
+    margin: 0px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    color:#800000;
+}
+
+.footer2:hover{
+    transition-duration: 0.5s;
+    box-shadow:5px 5px 5px 5px transparent;
+}
